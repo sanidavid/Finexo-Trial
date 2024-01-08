@@ -1,0 +1,304 @@
+*{
+ padding: 0;
+ margin: 0;
+ font-family: sans-serif;
+ max-width: 100%;
+ overflow-x: hidden;
+ height: fit-content;
+}
+
+
+.header{
+ left: 0;
+ top: 0;
+ position:relative;
+ background-color: navy;
+ z-index: 100;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+ width: 100%;
+ display: flex;
+ text-decoration: none;
+ font-weight: 200;
+}
+
+.logo{
+ text-decoration: none;
+ font-size: 15px;
+ font-size: 25px;
+ color: white;
+ font-weight: 600;
+ position: relative;
+ left: 20px;
+
+}
+
+.nav-bar{
+ padding: 1px;
+ text-align: center;
+ width: 100%;
+}
+
+.nav-bar a{
+ text-decoration: none;
+ margin: 13px;
+ font-size: 15px;
+ display: inline-block;
+ color: white;
+ transition: 0.5s;
+ position: relative;
+ left: 30%;
+ }
+
+.nav-bar :hover,
+.nav-bar .active{
+ color:blue;
+ cursor: pointer;
+}
+
+.nav-bar a i{
+ color: white;
+ font-size: 20px;
+ position: relative;
+ top: 2px;
+}
+
+.haze-ser{
+ position: relative; 
+ overflow: hidden;
+ text-align: center;
+ top: 90px;
+ }
+
+ .haze-ser h2{
+  font-size: 35px;
+ }
+
+ .haze-ser h2:before
+ {
+  content: 'Our';
+  color: black;
+ }
+
+ .haze-ser h2:after
+ {
+  content:  ' Services';
+  color: #00bbf0;
+ }
+
+.haze-ser p{
+font-size: 16px;
+color: black;
+}
+ 
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.box1,.box2,.box3{
+width: 300px;
+height: 320px;
+background-color: whitesmoke;
+margin: 15px;
+padding: 18px;
+color: black;
+}
+
+.container h4{
+letter-spacing: 2px;
+margin: 0 0 .6rem 0;
+font-size: 19px;
+font-display: bold;
+}
+
+.box1 p,
+.box2 p,
+.box3 p{
+line-height: 1.6;
+padding: 0 10px;
+}
+
+.curren{
+width: 120px;
+}
+
+.btn-2,
+.btn-3,
+.btn-4{
+position: relative;
+top: 20px;
+text-decoration: none;
+color: black;
+font-weight: 600;
+}
+
+.last{
+position: relative;
+left: 690px; 
+bottom: 50px;
+}
+
+.btn-5{
+font-size: 23px;
+text-decoration: none;
+background-color: #00bbf0;
+padding: 7px;
+width: 115px;
+display: inline-block;
+text-align: center;
+transition: 0.2s;
+color: white;
+}   
+
+.btn-5:hover{
+background-color: #007fa4;
+}
+
+.last-container{
+ background-color: #00204a;
+ width: 100%;
+ height: 350px;
+ position: relative;
+
+ overflow: hidden;
+}
+
+.info{
+ margin: 50px;
+ font-size: 20px;
+ position: absolute;
+ top: 65px;
+ transition: 0.2s;
+ left: 120px;
+}
+
+.info a i{
+ position: relative;
+ top: 11px;
+ margin: 5px;
+ line-height: 1.5;
+}
+
+.info h2{
+ color: white;
+ position: relative;
+ left: 10px;
+}
+
+
+.info a{
+ color: white;
+ text-decoration: none;
+}
+
+.info a:hover{
+ color: #007fa4;
+}
+
+.add{
+ position: relative;
+ top: 300px;
+ line-height: 6;
+ left: 168px;
+ transition: 0.2s;
+}
+
+.add i{
+ font-size: 30px;
+ margin: 5px;
+ text-decoration: none;
+}
+
+.add a i{
+ color: white;
+ cursor: pointer;
+ transition: 0.2s;
+}
+
+.add a i:hover{
+color: #002b64;
+}
+
+.info-2{
+ position: relative;
+ left: 540px;
+ top: 15px;
+}
+
+.info-2 h2{
+ font-size: 32px;
+ color: white;
+}
+
+.info-2 p{
+ font-size: 18px;
+ line-height: 27px;
+ color: white;
+}
+
+.links{
+ position: relative;
+ left: 945px;
+ bottom: 150px ;
+}
+
+.links h2{
+ font-size: 28px;
+ color: white;
+}
+
+.links li {
+ list-style-type: none;
+}
+
+.links a{
+ color: white;
+ text-decoration: none;
+ line-height: 2;
+}
+
+.links a:hover{
+ color:#002b64;
+}
+
+.sub{
+ position: relative;
+ bottom: 365px;
+ display: inline-block;
+ left: 1200px;  
+}
+
+.sub h3{
+ font-size: 27px;
+ color: white;
+ position: relative;
+ top: 10px
+}
+
+.sub input[type="email"]{
+outline: none;
+border: none;
+border-bottom: 2px solid white;
+color: white;
+position: relative;
+background: transparent;
+}
+
+
+.sub input[type="email"]::placeholder{
+ color: white;
+}
+
+.sub a{
+ text-decoration: none;
+ display: flex;
+ background-color: #00bbf0;
+ padding: 10px;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+}

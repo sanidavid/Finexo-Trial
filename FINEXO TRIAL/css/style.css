@@ -1,0 +1,691 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: fit-content;
+   }
+   
+   
+   .header{
+    left: 0;
+    top: 0;
+    position:relative;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px ;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    font-weight: 200;
+   }
+   
+   .logo{
+    text-decoration: none;
+    font-size: 15px;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+   
+   }
+   
+   .nav-bar{
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+   }
+   
+   .nav-bar a{
+    text-decoration: none;
+    margin: 13px;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+    transition: 0.5s;
+    position: relative;
+    left: 30%;
+    }
+   
+   .nav-bar :hover,
+   .nav-bar .active{
+    color:blue;
+    cursor: pointer;
+   }
+   
+   .nav-bar a i{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 11px;
+   }
+   
+   .hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 100px;
+   }
+   
+   .slider-section{
+   position: relative;
+   color: #ffffff;
+   bottom: 750px;
+   left: 160px;
+   text-decoration: none;
+   }
+   
+   .slider-section h1{
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 50px;
+    color: #ffffff;
+   }
+   
+   .slider-section p{
+    font-size: 17px;
+    position: relative;
+    top: 23px;
+    line-height: 26px;
+   }
+   
+   .btn{
+    position: relative;
+    background-color: red;
+    display:inline-block;
+    padding: 13px;
+    width: 115px;
+    text-align: center;
+    color: #ffffff;
+    background-color: skyblue;
+    text-decoration: none;
+   }
+   
+   .btn:hover{
+       background-color: #007fa4;
+   }
+   
+   .side-bar{
+    width: 770px;
+    position: relative;
+    bottom: 1200px;
+    left: 730px;
+    animation-name: infiniteupdown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all .3s;
+   }
+   
+   @keyframes infiniteupdown{ 
+       0%{
+           transform: translateY(0px);
+       }
+   
+       50%{
+        transform: translateY(-40px);
+       }
+   
+       100%{
+        transform: translateY(0px);
+       }
+       } 
+    
+    
+       .haze-ser{
+        position: relative; 
+        bottom: 1000px;
+        text-align: center;
+        }
+   
+        .haze-ser h2{
+         font-size: 35px;
+        }
+   
+        .haze-ser h2:before
+        {
+         content: 'Our';
+         color: black;
+        }
+   
+        .haze-ser h2:after
+        {
+         content:  ' Services';
+         color: #00bbf0;
+        }
+   
+    .haze-ser p{
+     font-size: 16px;
+     color: black;
+    }
+        
+    .container{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+    }
+   
+    .box1,.box2,.box3{
+       width: 300px;
+       height: 320px;
+       background-color: whitesmoke;
+       margin: 15px;
+       padding: 18px;
+       color: black;
+    }
+   
+    .container h4{
+       letter-spacing: 2px;
+       margin: 0 0 .6rem 0;
+       font-size: 19px;
+       font-display: bold;
+    }
+   
+    .box1 p,
+    .box2 p,
+    .box3 p{
+   line-height: 1.6;
+   padding: 0 10px;
+    }
+   
+   .curren{
+       width: 120px;
+   }
+   
+   .btn-2,
+   .btn-3,
+   .btn-4{
+       position: relative;
+       top: 20px;
+       text-decoration: none;
+       color: black;
+       font-weight: 600;
+   }
+   
+   .last{
+       position: relative;
+       bottom: 970px;
+       left: 700px;
+   }
+   
+   .btn-5{
+       font-size: 23px;
+       text-decoration: none;
+       background-color: #00bbf0;
+       padding: 13px;
+       width: 115px;
+       display: inline-block;
+       text-align: center;
+       transition: 0.2s;
+       color: white;
+   }   
+   
+   .btn-5:hover{
+     background-color: #007fa4;
+   }
+   
+   .background-1{
+       height: 100vh;
+       background-color: #00204a;
+       position: relative;
+       bottom: 880px;
+   }
+   
+   .about-us {
+       color: white;
+       text-align: center;
+       line-height: 45px;
+       position: relative;
+       top: 30px;
+   }
+   
+   .about-us h4{
+       font-size: 30px;
+   }
+   
+   .about-us h4:after{
+       content: ' Us';
+       color: skyblue;
+   }
+   
+   .about-ctt{
+   color: white;
+   position: relative;
+   top: 100px;
+   float: right;
+   right: 70px;
+   overflow: hidden;
+   
+   
+   }
+   
+   .about-ctt h3{
+       font-size: 28px 
+   }
+   
+   .about-ctt p{
+       position: relative;
+       top: 27px;
+       font-size: 17px;
+       line-height: 30px;
+   }
+   
+   .btn-6{
+       color: white;
+       display: inline-block;
+       background-color: #00bbf0;
+       padding: 13px;
+       width: 115px;
+       text-decoration: none;
+       transition: 0.2s;
+       cursor: pointer;
+       position: relative;
+       top: 440px;
+       text-align: center;
+       left: 880px;
+   }
+   
+   .btn-6:hover{
+       background-color:#007fa4;;
+   }
+   
+   .side-fine{
+       width:40%;
+       overflow: hidden;
+       position: absolute;
+       bottom: 50px;
+   }
+   
+   .down-ctt{
+   position: relative;
+   bottom: 780px;
+   text-align: center;
+   color: black;
+   }
+   
+   .down-ctt h3{
+       font-size: 27px;
+   }
+   
+   .down-ctt h3:after{
+       content: ' Us';
+       color: #00bbf0;
+   }
+   
+   .w-11,
+   .w-22,
+   .w-33,
+   .w-44{
+       width: 80px;
+       border: 4px solid navy;
+       border-radius: 50%;
+       padding: 30px;
+   } 
+   
+   .down-ctt h4{
+       font-size: 20px;
+       line-height: 60px;
+   }
+   
+   .down-ctt p{
+       line-height: 24px;
+       white-space: wrap;
+       text-align: center;
+       color: black;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .btn-7{
+       color: white;
+       display: inline-block;
+       background-color: #00bbf0;
+       padding: 13px;
+       width: 115px;
+       text-decoration: none;
+       transition: 0.2s;
+       cursor: pointer;
+   }
+   
+   .btn-7:hover{
+       background-color: #007fa4;
+   }
+   
+   .background-2{
+      background-color: #00204a; 
+      height: 90vh;
+      position: relative;
+      bottom: 680px;
+   }
+   
+   .team{
+       position: relative;
+       top: 50px;
+       text-align: center;
+   }
+   
+   .team h2{
+   color: white;
+   font-size: 30px;
+   }
+   
+   .team h2:after {
+       content: '   Team';
+       color: #00bbf0;   
+   }
+   
+   .teeaamm{
+       width: 80%;
+       height: 340px;
+       position: relative;
+       left: 150px;
+       padding: 45px 5 0 0;
+       overflow: hidden;
+       border-radius: 5px;
+       margin-top: 75px;
+       background: linear-gradient(to bottom, #002759, #002b64);
+   }
+   
+   .fill-11,
+   .fill-22,
+   .fill-33,
+   .fill-44{
+       width: 200px;
+       border-radius:100%;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+   }
+   
+   .fill-11{
+       width: 224px;
+   }
+   
+   .extension{
+       display: flex;
+       width: 100%;
+       justify-content: space-between;
+   }
+   
+   .box-11,
+   .box-22,
+   .box-33,
+   .box-44, h3{
+       font-size: 19px;
+       color: #00bbf0;
+   }
+   
+   .box-11,
+   .box-22,
+   .box-33,
+   .box-44, p{
+       color: white;
+   }
+   
+   .box-11,
+   .box-22,
+   .box-33,
+   .box-44, a i{
+       color: white;
+       background-color:#002759;
+       font-size: 20px;
+       text-decoration: none;
+       justify-content: space-evenly;
+       margin: 10px;
+       transition: 0.2s;
+       overflow: hidden;
+       cursor: pointer;
+   }
+   
+   .box-11,
+   .box-22,
+   .box-33,
+   .box-44, a i:hover{
+   color: #007fa4;
+   }
+   
+   .customers-details{
+       position: relative;
+       bottom: 610px;
+       left: 40%;
+   }
+   
+   .customers-details h3{
+      color: black; 
+      font-size: 27px;
+   }
+   
+   .customers-details span{
+       color:#00bbf0;
+   }
+   
+   .details{
+       position: relative;
+       bottom: 580px;
+       justify-content: space-evenly;
+       align-items: center;
+       margin: 50px;
+       display: flex;
+   }
+   
+   .box-detail-1{
+       background-color:aliceblue;
+       width: 500px;
+       height: 260px;
+       overflow: hidden;
+   }
+   
+   .box-detail-2{
+    background-color: aliceblue;
+    width: 500px;
+    overflow: hidden;
+    height: 260px;
+    }
+   
+    .client-1,
+    .client-2{
+       border-radius: 50%;
+       border: 4px solid #002759 ; 
+    }
+   
+    .client-2{
+       width: 100px;
+       height:100px;
+    }
+   
+    .box-detail-1,
+    .box-detail-2, h3{
+       margin: 1px;
+       position: relative;
+       left: 10px;
+    }
+   
+    .box-detail-1,
+    .box-detail-2, h5{
+       margin: 10px;
+    }
+   
+    .box-detail-1 p{
+       color: black;
+       font-size: 15px;
+       padding: 3px;
+       margin: 5px;
+    }
+   
+    .box-detail-2 p{
+       color: black;
+       font-size: 15px;
+       padding: 3px;
+       margin: 5px;
+    }
+   
+    .mile i{
+       position: absolute;
+       bottom: 140px;
+       left: 400px;
+       align-items: center;
+       font-size: 20px;
+       z-index: 1;  
+    }
+   
+    .sani i{
+       position: absolute;
+       bottom: 140px;
+       right: 70px;
+       align-items: center;
+       font-size: 20px;
+       z-index: 1;
+    }
+   
+    .last-container{
+       background-color: #00204a;
+       width: 100%;
+       height: 350px;
+       position: relative;
+       bottom: 550px;
+       overflow: hidden;
+    }
+   
+    .info{
+       margin: 50px;
+       font-size: 20px;
+       position: absolute;
+       top: 10px;
+       transition: 0.2s;
+       left: 120px;
+    }
+   
+    .info a i{
+       position: relative;
+       top: 16px;
+    }
+   
+    .info h2{
+       color: white;
+       position: relative;
+       left: 10px;
+    }
+   
+   
+    .info a{
+       color: white;
+       text-decoration: none;
+    }
+   
+    .info a:hover{
+       color: #007fa4;
+    }
+   
+    .add{
+       position: relative;
+       top: 260px;
+       left: 170px;
+    }
+   
+    .add i{
+       font-size: 30px;
+       margin: 5px;
+       text-decoration: none;
+    }
+    
+    .info-2{
+       position: relative;
+       left: 540px;
+       top: 15px;
+    }
+   
+    .info-2 h2{
+       font-size: 32px;
+       color: white;
+    }
+   
+    .info-2 p{
+       font-size: 18px;
+       line-height: 27px;
+    }
+   
+    .links{
+       position: relative;
+       left: 945px;
+       bottom: 150px ;
+    }
+   
+    .links h2{
+       font-size: 28px;
+       color: white;
+    }
+   
+    .links li {
+       list-style-type: none;
+    }
+   
+    .links a{
+       color: white;
+       text-decoration: none;
+       line-height: 2;
+    }
+   
+    .links a:hover{
+       color:#002b64;
+    }
+   
+    .sub{
+       position: relative;
+       bottom: 850px;
+       display: inline-block;
+       left: 1200px;  
+   }
+   
+   .sub h3{
+       font-size: 27px;
+       color: white;
+       position: relative;
+       top: 10px
+   }
+   
+   .sub input[type="email"]{
+      outline: none;
+      border: none;
+      border-bottom: 2px solid white;
+      color: white;
+      position: relative;
+      left: 13px;
+      background: transparent;
+   }
+   
+   
+   .sub input[type="email"]::placeholder{
+       color: white;
+   }
+   
+   .sub a{
+       position: relative;
+       left: 13px;
+       text-decoration: none;
+       display: flex;
+       background-color: #00bbf0;
+       padding: 10px;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+   }
+   
+   .height {
+       position: relative;
+       bottom: 650px;
+       align-items: center;
+       text-align: center;
+   }
+   
+   .height a{
+       text-decoration: none;
+       color: black;
+   
+   }
+   
+   
+   
